@@ -1,0 +1,181 @@
+/*General style*/
+
+/**********************************
+STYLE COLOR =>
+Color mix (http://colormind.io/bootstrap/)
+#EDECEF; (main-bg-color)
+#2A3A44; (second-bg-color)
+#84ACBF; (fourth-bg-color)
+#626981; (third-bg-color)
+#3868C3; (flash-color)
+
+FONT COLOR =>
+#181F23; (font-color)
+END STYLE COLOR
+**********************************/
+
+/*GENERAL*/
+
+body{
+	background-color: #EDECEF;
+}
+
+p, small{
+	font-family: 'Quicksand', sans-serif;
+}
+
+/*TITLES*/
+
+h1{
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-weight: 200;
+	font-size: 2rem;
+}
+
+h2, h3, h4, h5, h6, nav{
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 100;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.specs-bold-700{
+	font-weight: 700;
+}
+
+.specs-bold-400{
+	font-weight: 400;
+}
+
+/*SEPARATORS*/
+.separator-naked{
+	height: 10vh;
+	width: 100vw;
+}
+
+.separator-img1{
+
+}
+
+.separator-img2{
+	
+}
+
+/*FLEX*/
+
+.flex-container{
+	display: flex;
+}
+
+.flex-container-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-container-right{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.flex-container-right{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.flex-wrap{
+	flex-wrap: wrap;
+}
+
+.flex-wrap-reverse{
+	flex-wrap: wrap-reverse;
+}
+
+/*HEADER*/
+header{
+	height: 100vh;
+	width: 100vw;
+}
+
+.div-name-header{
+	height: 80px;
+	background-color: #626981;
+	padding-left: 3%;
+	align-items: center;
+	color: #EDECEF;
+}
+
+.list-no-style{
+	list-style: none;
+}
+
+.list-no-style li{
+	justify-content: space-around;
+}
+
+.background-header{
+	background: url(../imgs/mountains/mountain01.jpeg) no-repeat center -200px fixed; 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+}
+
+.div-catchphrase{
+	position: relative;
+	width: 100vw;
+	height: 70vh;
+	font-size: 3.75rem;
+	color: #EDECEF;
+}
+
+/*NAV*/
+nav{
+	height: 4.375rem;
+	background-color: #626981;
+	opacity: 0.73;
+	position: sticky;
+	top: 0;
+	color: #EDECEF;
+
+}
+
+nav ul li{
+	padding: 0.9375rem;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #EDECEF;
+}
+
+nav ul li a:hover{
+	font-weight: 400;
+	text-decoration: underline;
+}
+
+.border-li{
+	border-right: 0.0625rem solid #EDECEF;
+}
+
+/*MAIN*/
+main{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+/*FOOTER*/
+footer{
+	height: 9.375rem;
+	color: #EDECEF;
+	background-color: #2A3A44;
+}
+
+/*LISTS*/
+
+/*SECTION*/
+
+
+/*MEDIA QUERIES
